@@ -9,7 +9,7 @@ API.getCars()
   .then((cars) => {
     const itemsTableComponent = new ItemsTableComponent(cars);
     const headerComponent = new HeaderComponent({
-      text: 'Asmenis turintis automobili',
+      text: 'Asmenis perkantis automobili',
       className: 'text-center my-4',
     });
 

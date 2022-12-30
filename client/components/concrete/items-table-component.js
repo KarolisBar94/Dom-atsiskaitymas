@@ -33,9 +33,23 @@ tr.innerHTML = `
 <button class="btn btn-danger">DELET</button>
 </td>`;
 
+const handleDelete = async  () => {
+  await API.deleteCar(id);
+  const cars = await API.getCars();
+  
+  const tbody = this.htmlElement.querySelector('tbody');
+      const rowsHtmlElements = cars.map(this.createRowHtmlElement);
+      tbody.append(...rowsHtmlElements);
+  
+  
+  
+  }
+
 const delButton = tr.querySelector('.btn-danger');
-delButton.addEventListener('click', () => API.deleteCar(id));
-  return tr;
+delButton.addEventListener('click', handleDelete);
+
+
+return tr;
 }
 
 }

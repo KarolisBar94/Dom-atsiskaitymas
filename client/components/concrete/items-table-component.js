@@ -30,7 +30,7 @@ tr.innerHTML = `
 <td>${brand}</td>
 <td>${have ? 'Still buying' : 'No money'}</td>
 <td class="d-flex justify-content-end">
-<button class="btn btn-danger">X</button>
+<button class="btn btn-danger">DELET</button>
 </td>`;
 
 const delButton = tr.querySelector('.btn-danger');

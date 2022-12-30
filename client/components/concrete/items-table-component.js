@@ -6,9 +6,9 @@ class ItemsTableComponent {
 
   constructor(cars) {
     this.htmlElement = document.createElement('table');
-    this.htmlElement.className = 'table table-striped shadow-lg ';
+    this.htmlElement.className = 'table table-dark  shadow-lg ';
     this.htmlElement.innerHTML = `
-    <thead class="bg-info text-dark border-danger ">
+    <thead class=" text-primary border-warning ">
       <tr>
         <th>Id</th>
         <th>Brand</th>

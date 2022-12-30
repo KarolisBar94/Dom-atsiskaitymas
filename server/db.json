@@ -1,0 +1,29 @@
+{
+  "Cars": [
+    {
+      "id": "Kibiras",
+      "brand": "BMW",
+      "have": true
+    },
+    {
+      "id": "Larkinas",
+      "brand": "AUDI",
+      "have": false
+    },
+    {
+      "id": "Kleperis",
+      "brand": "PASAT",
+      "have": false
+    },
+    {
+      "id": "Liaukadija",
+      "brand": "BUGATI",
+      "have": true
+    },
+    {
+      "id": "Kasperas",
+      "brand": "MAZDA",
+      "have": false
+    }
+  ]
+}  
